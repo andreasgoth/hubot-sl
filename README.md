@@ -8,7 +8,7 @@ See [`src/sl.js`](src/sl.js) for full documentation.
 
 In hubot project repo, run:
 
-`npm install git+ssh://git@github.com:andreasgoth/hubot-sl.git --save`
+`npm install git+https://github.com/andreasgoth/hubot-sl.git --save`
 
 Then add **hubot-sl** to your `external-scripts.json`:
 
@@ -17,6 +17,10 @@ Then add **hubot-sl** to your `external-scripts.json`:
   "hubot-sl"
 ]
 ```
+
+And add `HUBOT_SL_RTI3_API_KEY` and `HUBOT_SL_SITEID` env variables.
+Get your API key here: [SL Realtidsinformation](https://www.trafiklab.se/api/sl-realtidsinformation-3)
+Get the SiteId for your closest station here: [SL Platsuppslag](https://www.trafiklab.se/api/sl-platsuppslag/konsol)
 
 ## Sample Interaction
 
