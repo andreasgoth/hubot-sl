@@ -1,0 +1,31 @@
+{
+  "name": "hubot-sl",
+  "description": "A hubot script displays SL real time data of a station",
+  "version": "1.0.0",
+  "author": "Andreas Göth <a@hrhr.se>",
+  "license": "MIT",
+
+  "keywords": "hubot, hubot-scripts",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-sl.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-sl/issues"
+  },
+
+  "dependencies": {
+  },
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+
+  "devDependencies": {
+    "hubot": "2.x"
+  },
+
+  "main": "index.coffee"
+}
