@@ -18,9 +18,7 @@ Then add **hubot-sl** to your `external-scripts.json`:
 ]
 ```
 
-And add `HUBOT_SL_RTI3_API_KEY` and `HUBOT_SL_SITEID` env variables.
-Get your API key here: [SL Realtidsinformation](https://www.trafiklab.se/api/sl-realtidsinformation-3)
-Get the SiteId for your closest station here: [SL Platsuppslag](https://www.trafiklab.se/api/sl-platsuppslag/konsol)
+Don't forget to add `HUBOT_SL_RTI3_API_KEY` and `HUBOT_SL_SITEID` env variables. Get your API key here: [SL Realtidsinformation](https://www.trafiklab.se/api/sl-realtidsinformation-3). And get the SiteId for your closest station here: [SL Platsuppslag](https://www.trafiklab.se/api/sl-platsuppslag/konsol).
 
 ## Sample Interaction
 
